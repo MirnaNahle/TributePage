@@ -2,6 +2,8 @@
 /* font-family: 'Quicksand', sans-serif;*/
 /*font-family: 'Roboto', sans-serif; */
 
+/*********************ID SELECTORS*********************/
+
 div.main-container {
   background-color: #eeeeee;
   border-radius: 5px;
@@ -17,7 +19,6 @@ div.main-heading {
 }
 
 div.main-heading p {
-  /* background-color: yellow; */
   text-align: center;
   margin: 0;
   font-weight: 400;
@@ -31,41 +32,34 @@ div.main-image {
 }
 
 div.image {
-  /* background-color: pink; */
   padding: 10px;
   border-radius: 2px;
 }
 
 div.image-caption {
-  /* background-color: red; */
   padding: 10px;
   font-weight: 100;
 }
 
 div.image img {
-  /* background-color: white; */
   max-width: 70%;
   margin: 0 auto;
 }
 
 div.image-caption p {
-  /* background-color: white; */
   max-width: 70%;
   margin: 0 auto;
 }
 
 div.main-text {
-  /* background-color: pink; */
   padding: 10px;
 }
 
 div.text-title h2 {
-  /* background-color: green; */
   text-align: center;
 }
 
 div.text-article p {
-  /* background-color: red; */
   padding: 20px;
   width: 70%;
   margin: 0 auto;
@@ -74,19 +68,15 @@ div.text-article p {
   font-weight: bold;
 }
 div.text-article ul {
-  /* background-color: green; */
   width: 60%;
   margin: 0 auto;
   word-spacing: 5px;
   line-height: 1.5;
-  /* list-style-type: "\2605"; */
-  /* list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png); */
 }
 
 div.text-article ul li {
   padding: 10px 0;
   font-weight: 400;
-  /* list-style: none; */
 }
 
 div.text-article a {
@@ -96,12 +86,10 @@ div.text-article a {
 }
 
 div.text-quote {
-  /* background-color: red; */
   margin: 20px auto;
   padding: 10px;
 }
 div.text-quote blockquote {
-  /* background-color: yellow; */
   padding: 5px;
   width: 55%;
   margin: 0 auto;
@@ -110,7 +98,6 @@ div.text-quote blockquote {
   font-weight: 400;
 }
 div.text-quote #cite {
-  /* background-color: green; */
   text-indent: 20px;
   font-weight: 300;
   font-family: "Roboto", monospace;
@@ -121,15 +108,12 @@ div.text-quote #cite {
 }
 
 .main-footer {
-  /* background-color: pink;
-  border: 5px dashed grey; */
   padding: 10px;
   margin: 10px 0;
   text-align: center;
 }
 
 div.footer-text p {
-  /* background-color: yellow; */
   padding: 5px;
   width: 60%;
   margin: 0 auto;
@@ -142,6 +126,8 @@ div.footer-text a {
   text-decoration: none;
   color: #008080;
 }
+
+/*********************ID SELECTORS*********************/
 
 #bullet-color {
   color: #008080;
